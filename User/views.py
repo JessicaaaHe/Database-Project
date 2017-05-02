@@ -16,7 +16,8 @@ class CustomBackend(ModelBackend):
             return None
 
 
-# Create your views here.
+# Create your views here. Test
+
 @csrf_exempt
 def user_login(request):
     if request.method == "POST":
